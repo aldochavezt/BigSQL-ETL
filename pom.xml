@@ -88,19 +88,19 @@
     <dependency>
       <groupId>org.apache.beam</groupId>
       <artifactId>beam-runners-google-cloud-dataflow-java</artifactId>
-      <version>${beam-version}</version>
+      <version>${beam.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.beam</groupId>
       <artifactId>beam-runners-direct-java</artifactId>
-      <version>${beam-version}</version>
+      <version>${beam.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.beam</groupId>
       <artifactId>beam-sdks-java-io-google-cloud-platform</artifactId>
-      <version>${beam-version}</version>
+      <version>${beam.version}</version>
     </dependency>
     <!-- slf4j API frontend binding with JUL backend -->
     <dependency>
